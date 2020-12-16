@@ -288,26 +288,7 @@ li {
 	display: flex;
 	flex-wrap:wrap;
 }
-/*--------------------------------
- Feature
----------------------------------*/
-.feature-item {
-  display: flex;
-  flex-wrap: wrap;
-}
 
-.feature-image-wrapper {
-  flex: 0 0 45%;
-  margin-right: 40px;
-}
-
-.feature-body {
-  flex: 1;
-}
-
-.feature-body p:not(:last-child) {
-  margin-bottom: 20px;
-}
 
 /*--------------------------------
  About
