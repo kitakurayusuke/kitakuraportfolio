@@ -209,10 +209,7 @@ li {
 /*--------------------------------
  Works
 ---------------------------------*/
-.works-list {
-
-
-}
+@media screen and (min-width:700px){
 
 .works-item {
 	margin-bottom : 10px;
@@ -288,7 +285,48 @@ li {
 	display: flex;
 	flex-wrap:wrap;
 }
+@media screen and (max-width:700px){
+	.works-item {
+	margin-bottom : 10px;
+}
+.portfolio img,.argame img,.onlinestore img{
 
+  width: 100%;
+
+}
+
+.works-body {
+  text-align: center;
+}
+
+.works-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.works-text {
+  font-size: 15px;
+}
+
+.works-url {
+  font-size: 15px;
+}
+
+.works-image.fadein {
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  opacity: 0;
+}
+
+.works-image.fadein.lazyloaded {
+  opacity: 1;
+}
+
+.works{
+
+}
+}
 
 /*--------------------------------
  About
